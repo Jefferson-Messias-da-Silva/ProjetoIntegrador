@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/prof.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="form">
+        <form action="#">
+            <div class="cabecalhodo-formulario">
+                <div class="title">
+                    <h1> Cadastro Responsável</h1>
+                </div>
+            </div>
+            <div class="grupodeopcoes">
+                <div class="entrada-usuario">
+                    <label for="Nome Completo"> Nome Completo</label>
+                    <input id="Nome Completo" type="text" name="Nome Completo" placeholder="Digite seu Nome Completo" required>
+                </div>
+                 <div class="entrada-usuario">
+                <label for="cpf">CPF</label>
+                <input  type="text"  maxlength="11" name="cpf" placeholder="Digite seu CPF" required>
+                </div>
+                <div>
+
+                </div>
+                <div class="entrada-usuario">
+                    <label for="numero">Celular</label>
+                    <input id="numero" type="tel" name="numero" placeholder="(xx) xxxx-xxxx" required>
+                </div>
+                <div class="entrada-usuario">
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                </div>
+                <div class="entrada-usuario">
+                    <label for="endereço">Endereço</label>
+                    <input id="endereço" type="text" name="endereço" placeholder="Digite seu Endereço" required>
+                </div>
+                <div class="entrada-usuario">
+                    <label for="ano">Data de Nascimento</label>
+                    <input id="Nascimento" type="date" name="Nascimento">
+                </div>
+            </div>
+            <div class="generos-entradas">
+                <div class="genero-titulo">
+                    <h6>Gênero</h6>
+                </div>
+
+                <div class="genero-grupo">
+                    <div class="genero">
+                        <input id="feminino" type="radio" name="genero">
+                        <label for="feminino">Feminino</label>
+                    </div>
+
+                    <div class="genero">
+                        <input id="Masculino" type="radio" name="genero">
+                        <label for="Masculino">Masculino</label>
+                    </div>
+
+                    <div class="genero">
+                        <input id="outros" type="radio" name="genero">
+                        <label for="outros">Outros</label>
+                    </div>
+
+                    <div class="genero">
+                        <input id="naodizer" type="radio" name="genero">
+                        <label for="naodizer">Prefiro não dizer</label>
+                    </div>
+                </div>
+            </div>
+            <div class="cadastrar-botao">
+                <button id="cadastro"><a href="telainicialaluno.html">Cadastrar</a> </button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

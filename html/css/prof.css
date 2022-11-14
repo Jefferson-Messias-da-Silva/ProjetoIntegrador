@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+/* esse e o cabecalho*/
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-color:  #D7C4F2 ;
+}
+/* Aqui inicia o formulario*/
+.form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 3rem;
+}
+
+.cabecalho-formulario{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Cor da linha embaixo do cadastra-se*/
+.cabecalhodo-formulario h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #47bba8;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+/* Grupo de blocos de informaçoes*/
+.grupodeopcoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.entrada-usuario {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+/* Cor da sombra das respostas do usuario*/
+.entrada-usuario input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+}
+/* Quando passar o mouse em cima aonde precisa ser*/
+.entrada-usuario input:hover {
+    background-color: #eeeeee75;
+}
+/* Quando for escrever as bordas trocarem de cores*/
+.entrada-usuario input:focus-visible {
+    outline: 1px solid #47bba8;
+}
+/* Cor das palavras de cada caixinha*/
+.entrada-usuario label,
+.genero-titulo h6 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000be;
+}
+/* Cor das palavras dentro das caixinhas de respostas*/
+.entrada-usuario input::placeholder {
+    color: #000000be;
+}
+/* Distanca das opçoes*/
+.genero-grupo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 .5rem;
+}
+/* Palavras ficar do lado das opcoes*/
+.genero input {
+    margin-right: 0.35rem;
+}
+/* Cor das opcoes*/
+.genero label {
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+/* Etilo do botao de cadastrar*/
+.cadastrar-botao button {
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #47bba8;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Quando passar o botao Permanecer a mesma cor*/
+.cadastrar-botao button:hover {
+    background-color: #47bba8;;
+}
+/*Cor do que esta escrito no botao*/
+.cadastrar-botao button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}

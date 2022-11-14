@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Diagnóstica-Floguinho</title>
+    <link rel="stylesheet" href="atividade.css"/>
+  
+ 
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/ativ1.js"></script>
+    
+    
+</head>
+<body>
+    <div class="imgavatar"><img src="imagens/avatar1.png" alt="Image" height="4%" width="4%"/> </div>
+    <div class="nome">PEDRO HENRIQUE SILVA</div> 
+    <div class="atv">ATIVIDADE DIAGNÓSTICA</div>
+    <hr class="linha" size="2">
+
+    <div id="ativ1">
+<div class="divativ1">
+      <h1 class="titulo">1-    Escolha a vogal inicial de cada figura:</h1>
+     <div class="divimagem">
+         <img id="aviao" class="imagat1" src="imagens/aviao.png" onclick="" alt="" value="a">
+         
+         <img id="elefante" class="imagat1" src="imagens/elefante.png" alt="" value="e"> 
+         <img id="indio" class="imagat1" src="imagens/indio.png" alt="" value="i"> 
+         <img id="oca" class="imagat1" src="imagens/oca.png" alt="" value="o"> 
+         <img id="uva" class="imagat1" src="imagens/uva.png" alt="" value="u">    
+     </div>
+     <div class="divletra">
+        <img  id="e"class="imagat2" src="imagens/e.png" alt=""value="elefante">
+        <img id ="o"class="imagat2" src="imagens/o.png" alt="" value="oca"> 
+        <img id="a" class="imagat2" src="imagens/a.png" alt="" value="aviao"> 
+        <img id="u" class="imagat2" src="imagens/u.png" alt="" value="uva"> 
+        <img id="i" class="imagat2" src="imagens/i.png" alt="" value="indio">
+     </div>
+   </div>
+   <button id="proximo2" class="botao">Proximo</button>
+</div>
+<div id="ativ2" class="ativ2">
+    <h1 class="titulo">2-   Escolha a palavra correta:</h1>
+    <div id="questao1" class="questao">
+        <img class="imagatv2"src="imagens/bala.png">
+        <button id="0" class="botresp1 botresp">Bola</button>
+        <button id="-1" class="botresp1 botresp" >Bule</button>
+        <button id="1" class="botresp1 botresp">Bala</button>
+    </div>
+    <div id="questao2"class="questao">
+        <img class="imagatv2"src="imagens/dado.png">
+        <button id="2" class="botresp2 botresp" >Dado</button>
+        <button id="-2"class="botresp2 botresp" >Dedo</button>
+        <button id="-4" class="botresp2 botresp">Doce</button>
+    </div>
+    <div id="questao3"class="questao">
+        <img class="imagatv2" src="imagens/vela.png">
+        <button id="3"class="botresp3 botresp">Vela</button>
+        <button id="-3"class="botresp3 botresp" >Vila</button>
+        <button id="-5"class="botresp3 botresp">Vaso</button>
+    </div>
+    <div id="questao4"class="questao">
+        <img class="imagatv2" src="imagens/bola.png">
+        <button id="-6"class="botresp4 botresp">Belo</button>
+        <button id="4"class="botresp4 botresp" >Bola</button>
+        <button id="-7"class="botresp4 botresp">Bico</button>
+    </div>
+    <button id="confirma" class="botaocom">Comfirmar</button>
+
+    <button id="proximo3" class="botao">Proximo</button>
+</div>
+<div id="ativ3" class="ativ3">
+    <h1 class="titulo">3-    Escolha a silaba correta:</h1>
+    <div id="" class="quest">
+        <img class="imagat3"src="imagens/borboleta.png">
+        <p class="textotitulo">_____ - BO - LE - TA </p>
+        <button id="-35" class="botaoresp botaoresp1">BAR</button>
+        <button id="certo1" class="botaoresp botaoresp1" >BOR</button>
+        <button id="-24" class="botaoresp botaoresp1">BUR</button>
+        <button id="-66" class="botaoresp botaoresp1">BER</button>
+    </div>
+    <div id=""class="quest">
+        <img class="imagat3"src="imagens/tartaruga.png">
+        <p class="textotitulo">_____ - TA - RU - GA </p>
+        <button id="certo2" class="botaoresp botaoresp2" >TAR</button>
+        <button id="-10"class="botaoresp botaoresp2" >TER</button>
+        <button id="-8" class="botaoresp botaoresp2">TUR</button>
+        <button id="-11" class="botaoresp botaoresp2">TOR</button>
+    </div>
+    <div id=""class="quest">
+        <img class="imagat3" src="imagens/urso.png">
+        <p class="textotitulo">_____ - SO</p>
+        <button id="-45"class="botaoresp botaoresp3">OR</button>
+        <button id="-57"class="botaoresp botaoresp3" >IR</button>
+        <button id="certo3"class="botaoresp botaoresp3">UR</button>
+        <button id="-33" class="botaoresp botaoresp3">ER</button>
+    </div>
+    
+    
+    <button id="confirmar2" class="botaocom2">Confirmar</button>
+
+    <button id="terminar" class="terminar">Fim</button>
+</div>
+<div id="fim" class="divfim">
+    <h1 class="titulo">Você certou:</h1><p id="acertos" class='acertos'></p>
+    <button id="inicio" class="voltar">Fim</button>
+</div>
+
+
+</body>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/aluno.css"css/>
+    <title>Cadastro</title>
+    
+</head>
+<body>
+    <div class="form">
+        <form action="#">
+            <div class="cabecalhodo-formulario">
+                <div class="title">
+                    <h1>Cadastro Aluno</h1>
+                </div>
+            </div>
+            <div class="grupodeopcoes">
+                <div class="entrada-usuario">
+                    <label for="Nome Completo"> Nome Completo</label>
+                    <input id="Nome Completo" type="text" name="Nome Completo" placeholder="Digite seu Nome Completo" required>
+                </div>
+                 <div class="entrada-usuario">
+                <label for="rg"> RG</label>
+                <input  type="text"  maxlength="7" name="RG" placeholder="Digite seu RG" required>
+                </div>
+                <div class="entrada-usuario">
+                    <label for="senha">Senha</label>
+                    <input id="senha" type="password" name="senha" placeholder="Digite sua senha" required>
+                </div>
+
+                <div class="entrada-usuario">
+                    <label for="Ano"> Ano Letivo </label>
+                    <input id="Ano" type="text" name="Ano" placeholder="Digite seu Ano escolar" required>
+                </div>
+                <div class="entrada-usuario">
+                    <label for="ano"> Data de Nascimento</label>
+                    <input id="Nascimento" type="date" name="Nascimento">
+                </div>
+            </div>
+
+            <div class="generos-entradas">
+                <div class="genero-titulo">
+                    <h6>Gênero</h6>
+                </div>
+
+                <div class="genero-grupo">
+                    <div class="genero">
+                        <input id="feminino" type="radio" name="genero">
+                        <label for="feminino">Feminino</label>
+                    </div>
+
+                    <div class="genero">
+                        <input id="Masculino" type="radio" name="genero">
+                        <label for="Masculino">Masculino</label>
+                    </div>
+
+                    <div class="genero">
+                        <input id="outros" type="radio" name="genero">
+                        <label for="outros">Outros</label>
+                    </div>
+
+                    <div class="genero">
+                        <input id="naodizer" type="radio" name="genero">
+                        <label for="naodizer">Prefiro não dizer</label>
+                    </div>
+                </div>
+            </div>
+            <div class="prosseguir-botao">
+                <div class="text-box"> 
+                <button id="Prosseguir"><a href="cadastroresponsavel.html">Prosseguir</a> </button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
