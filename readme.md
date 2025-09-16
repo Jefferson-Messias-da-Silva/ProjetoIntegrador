@@ -1,4 +1,4 @@
-📚 Projeto Integrador – Jogos Educativos para Educação Infantil
+##📚 Projeto Integrador – Jogos Educativos para Educação Infantil
 
 Este é um projeto desenvolvido como parte do primeiro semestre da faculdade, com o objetivo de criar um site interativo de jogos educativos voltados para a educação infantil. A proposta visa estimular o aprendizado de forma lúdica e divertida, utilizando tecnologias web como HTML, CSS e JavaScript.
 
